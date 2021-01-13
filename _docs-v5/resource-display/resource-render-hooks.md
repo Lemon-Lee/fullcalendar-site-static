@@ -20,13 +20,13 @@ A resource "label" is anywhere the name of a resource is displayed. They exist i
 
 A resource "lane" is an element in resource-timeline view. It runs horizontally across the timeline slots for each resource.
 
-`resourceLaneClassNames` - a [ClassName Input](classname-input)
+`resourceLabelClassNames` - a [ClassName Input](classname-input)
 
-`resourceLaneContent` - a [Content Injection Input](content-injection)
+`resourceLabelContent` - a [Content Injection Input](content-injection)
 
-`resourceLaneDidMount`
+`resourceLabelDidMount`
 
-`resourceLaneWillUnmount`
+`resourceLabelWillUnmount`
 
 
 ## Argument
@@ -35,4 +35,4 @@ When the above hooks are specified as a function in the form `function(arg)`, th
 
 - `resource` - [Resoure Object](resource-object)
 - `date` - in vertical resource view, if this is a column that lives under a certain date, this will be the Date object
-- `el` - the label element. only available in `resourceLabelDidMount`, `resourceLabelWillUnmount`, `resourceLaneDidMount`, and `resourceLaneWillUnmount`
+- `el` - the label element. only available in `resourceLabelDidMount`, `resourceLabelWillUnmount`, `resourceLabelDidMount`, and `resourceLabelWillUnmount`
