@@ -20,13 +20,13 @@ A resource "label" is anywhere the name of a resource is displayed. They exist i
 
 A resource "lane" is an element in resource-timeline view. It runs horizontally across the timeline slots for each resource.
 
-`resourceLaneClassNames` - a [ClassName Input](classname-input)
+`resourceLanelClassNames` - a [ClassName Input](classname-input)
 
-`resourceLaneContent` - a [Content Injection Input](content-injection)
+`resourceLanelContent` - a [Content Injection Input](content-injection)
 
-`resourceLaneDidMount`
+`resourceLanelDidMount`
 
-`resourceLaneWillUnmount`
+`resourceLanelWillUnmount`
 
 
 ## Argument
